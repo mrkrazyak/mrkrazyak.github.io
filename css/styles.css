@@ -11616,7 +11616,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background: rgba(0, 0, 0, 1.0);
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -11624,6 +11624,7 @@ body {
 
 .professional-section {
   padding: 10rem 0;
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 1.0) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .professional-section .featured-text {
   padding: 2rem;
@@ -11647,6 +11648,13 @@ body {
     border-width: 0.25rem;
     width: 30%;
   }
+}
+.professional-row {
+  padding: 3rem;
+}
+
+.professional-section .pad-top {
+  padding-top: 3rem;
 }
 
 .misc-section {
