@@ -11580,7 +11580,7 @@ body {
   background-size: cover;
 }
 .masthead h1, .masthead .h1 {
-  font-family: monospace, "Segoe UI Symbol", "Varela Round";
+  font-family: 'Anonymous Pro', monospace, "Segoe UI Symbol", "Varela Round";
   font-size: 2.5rem;
   line-height: 2.5rem;
   /* background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0)); */
@@ -11590,6 +11590,7 @@ body {
           background-clip: text;
 }
 .masthead h2, .masthead .h2 {
+  font-family: 'Anonymous Pro', monospace, "Segoe UI Symbol", "Varela Round";
   max-width: 20rem;
   font-size: 1rem;
 }
@@ -11609,9 +11610,28 @@ body {
     line-height: 6.5rem;
   }
   .masthead h2, .masthead .h2 {
-    max-width: 30rem;
+    max-width: 40rem;
     font-size: 1.25rem;
   }
+}
+
+.typewriter h1 {
+  overflow: hidden;
+  border-right: .08em solid rgba(255,255,255,.75);
+  white-space: nowrap;
+  margin: 0 auto;
+  animation:
+    typing 2.5s steps(12, end),
+    blink-caret .7s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgba(255,255,255,.75); }
 }
 
 .about-section {
