@@ -895,6 +895,20 @@ progress {
   --bs-gutter-y: 3rem;
 }
 
+.profile-img {
+  flex: 0 0 auto;
+  width: 30%;
+}
+
+.profile-border {
+  border: 0.4rem solid rgba(var(--bs-primary-rgb, 1.0));
+}
+
+.logo-img {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
 @media (min-width: 576px) {
   .col-sm {
     flex: 1 0 0%;
@@ -1322,6 +1336,14 @@ progress {
   }
 }
 @media (min-width: 992px) {
+  .profile-img {
+    width: 20%;
+  }
+
+  .logo-img {
+    width: 25%;
+  }
+
   .col-lg {
     flex: 1 0 0%;
   }
